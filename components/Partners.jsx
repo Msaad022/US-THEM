@@ -20,19 +20,19 @@ function Partners() {
       <div className={Styles.content_partners}>
         <div className={Styles.partner}>
           <div>
-            <Image src={Teba_img} alt="Teba img" />
+            <Image src={"/us-them" +Teba_img} alt="Teba img" />
           </div>
           <span>مركز طيبة</span>
           <p>مركز طيبة للتخاطب و ذوي الاحتياجات الخاصة</p>
           <div className={Styles.social_icon}>
             <div>
               <Link href='/#'>
-                <a><Image src={Facebook} alt="Facebook icon" /></a>
+                <a><Image src={"/us-them" +Facebook} alt="Facebook icon" /></a>
               </Link>
             </div>
             <div>
               <Link href='/#'>
-                <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
+                <a><Image src={"/us-them" +Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>
           </div>
@@ -40,19 +40,19 @@ function Partners() {
 
         <div className={Styles.partner}>
           <div>
-            <Image src={Eman_img} alt="Eman img" />
+            <Image src={"/us-them" +Eman_img} alt="Eman img" />
           </div>
           <span>د/إيمان فرحات</span>
           <p>أخصائي أمراض التخاطب والتأهيل و ماجستير الصحة النفسية</p>
           <div className={Styles.social_icon}>
             <div>
               <Link href='/#'>
-                <a><Image src={Facebook} alt="Facebook icon" /></a>
+                <a><Image src={"/us-them" +Facebook} alt="Facebook icon" /></a>
               </Link>
             </div>
             <div>
               <Link href='/#'>
-                <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
+                <a><Image src={"/us-them" +Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>
           </div>

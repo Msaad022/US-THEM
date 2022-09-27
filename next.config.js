@@ -4,7 +4,10 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true
-}}
+  },
+  basePath: '/us-them',
+  assetPrefix: '/us-them',
+}
 
 module.exports = nextConfig
 

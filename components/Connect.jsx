@@ -7,7 +7,7 @@ function Connect() {
       <section className={Styles.main_connect} id="connect">
         <div className={Styles.img_connect}>
           <div className={Styles.parent_img}>
-            <Image src={Img} alt="img" />
+            <Image src={"/us-them" +Img} alt="img" />
           </div>
         </div>
         <div className={Styles.form_connect}>

@@ -13,17 +13,17 @@ function Footer() {
       <div className={Styles.social_icon}>
         <div>
           <Link href='/#'>
-            <a><Image src={Instagram} alt="instagram icon" /></a>
+            <a><Image src={"/us-them" +Instagram} alt="instagram icon" /></a>
           </Link>
         </div>
         <div>
           <Link href='/#'>
-            <a><Image src={Facebook} alt="facebook icon" /></a>
+            <a><Image src={"/us-them" +Facebook} alt="facebook icon" /></a>
           </Link>
         </div>
         <div>
           <Link href='/#'>
-            <a><Image src={Twitter} alt="twitter icon" /></a>
+            <a><Image src={"/us-them" +Twitter} alt="twitter icon" /></a>
           </Link>
         </div>
       </div>

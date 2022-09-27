@@ -1,0 +1,47 @@
+.main_partners{
+    display: grid;
+    grid-template-rows: 20% auto;
+    padding-top: 3rem;
+}
+.title_partners{
+    text-align: center;
+    width: 550px;
+    justify-self: center;
+}
+.title_partners h3{
+    font-size: 36px;
+    margin: 0;
+}
+.title_partners p{
+    color: #3EB860;
+}
+.content_partners{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.partner {
+    text-align: center;
+}
+.partner div:first-child{
+    width: 321px;
+}
+.partner span{
+    Font-size: 40px;
+    Vertical-align: Top;
+}
+.partner p{
+    width: 215px;
+    color: #000000;
+    margin: 0px auto 20px;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social_icon div{
+    max-width: 25px;
+}

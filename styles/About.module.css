@@ -1,0 +1,44 @@
+.main_about {
+  display: grid;
+  grid-template-columns: 51% 45% 4%;
+  align-items: center;
+  min-height: 100vh;
+}
+.parent_img {
+  margin: auto;
+  width: 580px;
+  height: 368px;
+}
+.parent_img iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+.text_about {
+  text-align: right;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.text_about > div {
+  width: 90%;
+}
+.text_about span {
+  width: 132px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #3eb860;
+}
+.text_about h2 {
+  line-height: 1.5;
+  margin: 10px 0px;
+  font-size: 36px;
+}
+.text_about p {
+  font-weight: 400;
+  color: #656464;
+  padding-left: 6rem;
+}

@@ -1,0 +1,46 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 20px 0px;
+  background: #e1ffea;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  gap: 13px;
+}
+.links {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  justify-items: center;
+}
+.links > ul {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.links > ul a {
+  outline: none;
+}
+.links > ul a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-style: normal;
+  line-height: 2.3;
+  text-align: center;
+  transition: 250ms;
+}
+.links > ul > li:hover:not(:last-child) a {
+  background-color: #3eb86014;
+}
+.links > ul > li:last-child a {
+  background: #3eb860;
+  color: white;
+}

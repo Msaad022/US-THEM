@@ -1,0 +1,27 @@
+.hero_banner{
+    background: linear-gradient(360deg, #FFFFFF 5.36%, #E1FFEA 94.51%);
+    display: grid;
+    grid-template-columns: 41% 55% 4%;
+    justify-items: center;
+    min-height: calc(100vh - 112px);
+}
+.text_banner {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    padding: 0px 40px;
+    direction: rtl;
+}
+.text_banner h1 {
+    font-display: swap;
+    font-size: 3rem;
+    margin: 1rem;
+}
+.imgs_app {
+    padding-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+.imgs_app > div > a {
+    user-select: none;
+    outline: none;
+}

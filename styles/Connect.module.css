@@ -1,0 +1,58 @@
+.main_connect {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 6rem;
+}
+.parent_img {
+  width: 600px;
+  margin: auto 10px auto auto;
+}
+.form_connect {
+  text-align: center;
+}
+.title_form {
+  padding: 31px 5px;
+}
+.title_form h3 {
+  font-size: 36px;
+  margin: 0;
+  direction: ltr;
+}
+.title_form p {
+  font-weight: 400;
+  color: #3eb860;
+}
+.form form {
+  width: 75%;
+  margin: auto;
+}
+.form input,
+.form textarea {
+  width: 88%;
+  height: 48px;
+  border: 1px solid rgba(207, 207, 207, 0.85);
+  border-radius: 12px;
+  direction: rtl;
+  padding-right: 25px;
+  margin-bottom: 20px;
+  outline-color: #3eb86045;
+}
+.form textarea {
+  height: 180px;
+  padding-top: 20px;
+  resize: none;
+}
+.form button {
+  width: 90px;
+  height: 40px;
+  background: #3eb860;
+  border-radius: 6px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  outline: none;
+  user-select: none;
+  float: left;
+  margin-left: 33px;
+  border: none;
+}

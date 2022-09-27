@@ -5,7 +5,7 @@ import Link from "next/link";
 import Teba_img from "../public/teba.svg";
 import Eman_img from "../public/eman.svg";
 import Facebook from "../public/facebook.png";
-import Whatsapp from "../public/Whatsapp.png";
+import Whatsapp from "../public/whatsapp.png";
 
 function Partners() {
   return (

@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
-  min-height: 100vh;
+  height: 789px;
+  align-items: center;
 }
 .parent_img {
   max-width: 600px;
@@ -13,6 +14,7 @@
 }
 .title_form {
   padding: 31px 5px;
+  height: 160px;
 }
 .title_form h2 {
   font-size: 36px;
@@ -22,6 +24,7 @@
 .title_form p {
   font-weight: 400;
   color: #3eb860;
+  margin: 0;
 }
 .form form {
   width: 75%;
@@ -52,6 +55,9 @@
   font-size: 19px;
   font-weight: 600;
   outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
   user-select: none;
   float: left;
   margin-left: 33px;
@@ -74,7 +80,6 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .main_connect {
     grid-template-columns: 47% 53%;
-    align-items: center;
   }
   .form form {
     width: 88%;

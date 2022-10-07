@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 41% 55% 4%;
   justify-items: center;
-  min-height: calc(100vh - 112px);
+  height: 677px;
 }
 .text_banner {
   display: grid;
@@ -21,6 +21,9 @@
   gap: 30px;
 }
 .imgs_app > div > a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
   user-select: none;
   outline: none;
 }

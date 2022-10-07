@@ -1,7 +1,17 @@
 .main_join {
-  padding-top: 2rem;
-  min-height: 100vh;
+  height: 789px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+.form_join {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  justify-items: center;
 }
 .form {
   width: 70%;
@@ -18,12 +28,6 @@
 .title_form p {
   color: #3eb860;
   padding: 0px 15px;
-}
-.form_join {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
 }
 .drag_and_drop {
   position: relative;

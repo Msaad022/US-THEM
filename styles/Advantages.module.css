@@ -1,6 +1,5 @@
 .main_advantages {
   text-align: center;
-  min-height: 100vh;
   background-image: url(../public/Line\ 9.svg), url(../public/Line\ 8.svg);
   background-position: 47% 76%, 49% 29%;
   background-repeat: no-repeat;
@@ -8,6 +7,7 @@
   position: relative;
 }
 .title_advantages{
+  height: 204px;
   padding: 2rem 10px;
 }
 
@@ -92,9 +92,6 @@
   .main_advantages {
     background: none;
   }
-  .title_advantages{
-    margin-bottom: 50px;
-  }
   .title_advantages h2 {
     font-size: 20px;
   }
@@ -109,13 +106,13 @@
   }
   .left_plan {
     position: absolute;
-    top: 42%;
+    top: 42.5%;
     left: 0;
     right: 0;
     grid-template-rows: 0 auto;
     z-index: 99;
   }
   .right_plan {
-    gap: 650px;
+    gap: 640px;
   }
 }

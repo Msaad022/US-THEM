@@ -1,47 +1,83 @@
-.main_partners{
-    display: grid;
-    grid-template-rows: 20% auto;
-    padding-top: 3rem;
+/* .main_partners {
+  padding-top: 3rem;
+} */
+.title_partners {
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
 }
-.title_partners{
-    text-align: center;
-    width: 550px;
-    justify-self: center;
+.title_partners h2 {
+  font-size: 36px;
+  margin: 0;
 }
-.title_partners h3{
-    font-size: 36px;
-    margin: 0;
+.title_partners p {
+  color: #3eb860;
 }
-.title_partners p{
-    color: #3EB860;
-}
-.content_partners{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
+.content_partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 .partner {
-    text-align: center;
+  text-align: center;
 }
-.partner div:first-child{
-    width: 321px;
+.partner > div:first-child {
+  width: 95%;
+  margin: auto;
 }
-.partner span{
-    Font-size: 40px;
-    Vertical-align: Top;
+.partner span {
+  font-size: 40px;
+  vertical-align: Top;
 }
-.partner p{
-    width: 215px;
-    color: #000000;
-    margin: 0px auto 20px;
+.partner p {
+  max-width: 215px;
+  color: #000000;
+  margin: 0px auto 20px;
 }
-.social_icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.social_icon div{
-    max-width: 25px;
+.social_icon div {
+  max-width: 25px;
+}
+
+/* Start Media-Queries */
+
+/*  Desktops, large screens */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Small screens, laptops */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title_partners h2 {
+    font-size: 1.5rem;
+  }
+  .partner > div:first-child {
+    width: 70%;
+  }
+}
+
+/* iPads, Tablets, Mobile devices */
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .title_partners h2 {
+    font-size: 20px;
+  }
+  .title_partners p {
+    width: 71%;
+    margin: auto;
+  }
+  .content_partners {
+    grid-template-columns: none;
+    padding-top: 2rem;
+  }
+  .partner > div:first-child {
+    width: 70%;
+  }
 }

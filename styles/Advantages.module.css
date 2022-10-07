@@ -1,16 +1,17 @@
 .main_advantages {
-  display: grid;
-  grid-template-rows: 13% 87%;
-  justify-items: center;
   text-align: center;
   min-height: 100vh;
   background-image: url(../public/Line\ 9.svg), url(../public/Line\ 8.svg);
-  background-position: 47% 82%, 49% 32%;
+  background-position: 47% 76%, 49% 29%;
   background-repeat: no-repeat;
-  margin-bottom: 4rem;
   padding-top: 3rem;
+  position: relative;
 }
-.title_advantages h3 {
+.title_advantages{
+  padding: 2rem 10px;
+}
+
+.title_advantages h2 {
   font-size: 36px;
   margin: 0;
 }
@@ -23,10 +24,11 @@
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: auto;
 }
 .left_plan {
   display: grid;
-  grid-template-rows: 16% 40%;
+  grid-template-rows: 17% 40%;
 }
 .right_plan {
   display: flex;
@@ -38,13 +40,13 @@
 }
 .content_plan {
   margin: auto;
-  width: 450px;
+  max-width: 450px;
 }
 .plan_image img {
   background: white;
 }
 .plan_text {
-  width: 286px;
+  max-width: 286px;
   background: #fafafa;
   box-shadow: 0px 4px 4px rgb(159 152 152 / 25%);
   border-radius: 8px;
@@ -59,4 +61,61 @@
   font-weight: 700;
   font-size: 20px;
   color: #3eb860;
+}
+
+/* Start Media-Queries */
+
+/* Small screens, laptops */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main_advantages {
+    background-position: 56% 90%, 51% 42%;
+  }
+  .title_advantages h2 {
+    font-size: 1.5rem;
+  }
+  .left_plan {
+    grid-template-rows: 25% 40%;
+  }
+  .plan_image {
+    width: 80%;
+    margin: auto;
+  }
+  .plan_text {
+    width: 250px;
+  }
+}
+
+/* iPads, Tablets, Mobile devices */
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .main_advantages {
+    background: none;
+  }
+  .title_advantages{
+    margin-bottom: 50px;
+  }
+  .title_advantages h2 {
+    font-size: 20px;
+  }
+  .title_advantages p {
+    width: 80%;
+    margin: auto;
+    margin-top: 13px;
+  }
+  .planning {
+    display: initial;
+    grid-template-columns: none;
+  }
+  .left_plan {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    grid-template-rows: 0 auto;
+    z-index: 99;
+  }
+  .right_plan {
+    gap: 650px;
+  }
 }

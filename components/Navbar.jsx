@@ -3,8 +3,14 @@ import Styles from '../styles/Navbar.module.css'
 import Image from "next/image"
 import Logo from "../public/logo.svg";
 import Link from "next/link";
+import { useState } from "react";
 
 function Navbar() {
+
+  const[isAction, setAction] = useState(false)
+
+  const ToggleClass = () => ( setAction(!isAction) )
+  
 
   const router = useRouter()
   const { locale } =  router
@@ -13,13 +19,19 @@ function Navbar() {
     const locale= e.target.value
     router.push('/','/', { locale } )
   }
+
   return (
-    <nav className={Styles.navbar}>
+    <nav className={Styles.navbar + ' ' + `${ isAction ? Styles.dropdown_opening : '' }` }>
       <div className={Styles.logo} dir="ltr">
         <Image src={Logo} alt="logo" priority/>
         <span>نحن و هم </span>
       </div>
-      <div className={Styles.links}>
+      <div className={`menu ${isAction ? 'dropdown' : '' }`} onClick={ ToggleClass }>
+        <div className='line1'></div>
+        <div className='line2'></div>
+        <div className='line3'></div>
+      </div>
+      <div className= {Styles.links}>
         <ul>
           <li>
             <Link href="/#hero_banner">

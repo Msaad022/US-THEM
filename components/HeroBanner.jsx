@@ -9,7 +9,7 @@ function HeroBanner({ lang }) {
   return (
     <section className={Styles.hero_banner} id='hero_banner'>
       <div className={Styles.img_banner}>
-        <Image src={"/us-them" +ImageHero} alt="Hero Banner" priority />
+        <Image src={ImageHero} alt="Hero Banner" priority />
       </div>
       <div className={Styles.text_banner}>
         <div></div>
@@ -19,12 +19,12 @@ function HeroBanner({ lang }) {
           <div className={Styles.imgs_app}>
             <div>
               <Link href='/#'>
-                <a><Image src={"/us-them" +ImageGooglePlay} alt="Image Google Play" priority /></a>
+                <a><Image src={ImageGooglePlay} alt="Image Google Play" priority /></a>
               </Link>
             </div>
             <div>
               <Link href='/#'>
-                <a><Image src={"/us-them" +ImageAppGallery} alt="Image App Gallery" priority /></a>
+                <a><Image src={ImageAppGallery} alt="Image App Gallery" priority /></a>
               </Link>
             </div>
           </div>

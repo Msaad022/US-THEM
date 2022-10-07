@@ -1,28 +1,20 @@
 import Styles from "../styles/About.module.css";
-import Image from "next/image";
-import Img from "../public/img_video.png";
 import { useRef } from "react";
+import poster from '../public/poster1.png'
 
 function About() {
-  const iframe = useRef()
 
-  const videoPlay = () => {
-    
-    console.log(456);
-  }
-  
+  const iframe = useRef();
+
   return (
     <section className={Styles.main_about} id="about">
       <div className={Styles.img_about}>
-        <div className={Styles.parent_img} onClick={()=>videoPlay()}>
-          <iframe
-            src="https://www.youtube.com/embed/2WzCeE6Sq24"
-            ref={iframe}
-            onClick={()=>videoPlay()}
-            title="سورة ( الإخلاص - الفلق - الناس ) - مشاري بن راشد العفاسي"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
+        <div className={Styles.parent_video}>
+          <video controls poster={poster.src}>
+            <source src={"/video_about.mp4"} type="video/mp4" />
+            <source src={"/video_about.ogg"} type="video/ogg" />
+            Your browser does not support HTML video.
+          </video>
         </div>
       </div>
       <div className={Styles.text_about}>

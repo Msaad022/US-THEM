@@ -8,7 +8,7 @@ function Advantages() {
   return (
     <section className={Styles.main_advantages} id="advantages">
       <div className={Styles.title_advantages}>
-        <h3>مزايا تطبيق التأخر العقلي</h3>
+        <h2>مزايا تطبيق التأخر العقلي</h2>
         <p>
           للتطبيق العديد من المزايا التي تساهم في مساعدة الأطفال بشكل فعال في
           وقت قصير{" "}
@@ -20,7 +20,7 @@ function Advantages() {
 
           <div className={Styles.content_plan}>
             <div className={Styles.plan_image}>
-              <Image src={"/us-them" + Img1} alt="img 2" />
+              <Image src={Img1} alt="img 2" />
             </div>
             <div className={Styles.plan_text}>
               <span>02</span>
@@ -37,7 +37,7 @@ function Advantages() {
         <div className={Styles.right_plan}>
           <div className={Styles.content_plan + ' ' + 'plan_one'}>
             <div className={Styles.plan_image}>
-              <Image src={"/us-them" +Img2} alt="img 1" />
+              <Image src={Img2} alt="img 1" />
             </div>
             <div className={Styles.plan_text}>
               <span>01</span>
@@ -52,7 +52,7 @@ function Advantages() {
 
           <div className={Styles.content_plan}>
             <div className={Styles.plan_image}>
-              <Image src={"/us-them" +Img3} alt="img 3" />
+              <Image src={Img3} alt="img 3" />
             </div>
             <div className={Styles.plan_text}>
               <span>03</span>

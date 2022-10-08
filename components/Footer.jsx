@@ -12,17 +12,17 @@ function Footer() {
       <h3>نَحنُ و هٌم - Us & Them</h3>
       <div className={Styles.social_icon}>
         <div>
-          <Link href='/#'>
+          <Link href='https://www.instagram.com/usandthem.eg'>
             <a><Image src={Instagram} alt="instagram icon" /></a>
           </Link>
         </div>
         <div>
-          <Link href='/#'>
+          <Link href='https://web.facebook.com/usandthem.eg'>
             <a><Image src={Facebook} alt="facebook icon" /></a>
           </Link>
         </div>
         <div>
-          <Link href='/#'>
+          <Link href='https://twitter.com/usandthem_eg'>
             <a><Image src={Twitter} alt="twitter icon" /></a>
           </Link>
         </div>

@@ -26,12 +26,12 @@ function Partners() {
           <p>مركز طيبة للتخاطب و ذوي الاحتياجات الخاصة</p>
           <div className={Styles.social_icon}>
             <div>
-              <Link href='/#'>
+              <Link href='https://web.facebook.com/tebacenter.eg'>
                 <a><Image src={Facebook} alt="Facebook icon" /></a>
               </Link>
             </div>
             <div>
-              <Link href='/#'>
+              <Link href='https://wa.me/01124004914'>
                 <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>
@@ -46,12 +46,12 @@ function Partners() {
           <p>أخصائي أمراض التخاطب والتأهيل و ماجستير الصحة النفسية</p>
           <div className={Styles.social_icon}>
             <div>
-              <Link href='/#'>
+              <Link href='https://web.facebook.com/EmanFrhatSpeechPathologist'>
                 <a><Image src={Facebook} alt="Facebook icon" /></a>
               </Link>
             </div>
             <div>
-              <Link href='/#'>
+              <Link href='https://wa.me/01129066167'>
                 <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>

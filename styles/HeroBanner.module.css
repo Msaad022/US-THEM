@@ -56,7 +56,12 @@
   .text_banner h1 {
     font-size: xx-large;
   }
-  .imgs_app > div{
-    width: 35%;
+}
+
+/* Smole Mobile devices */
+
+@media (min-width: 0px) and (max-width: 387px) {
+  .text_banner h1 {
+    font-size: x-large;
   }
 }

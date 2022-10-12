@@ -59,13 +59,6 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <select
-          aria-label="language"
-          onChange={changeLanguage}
-          defaultValue={locale} >
-          <option value="ar">AR</option>
-          <option value="en">EN</option>
-        </select>
       </div>
     </nav>
   )

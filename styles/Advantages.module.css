@@ -65,6 +65,15 @@
 
 /* Start Media-Queries */
 
+/* big screens */
+
+@media (min-width: 1431px) {
+  .main_advantages {
+    width: 93%;
+    margin: auto;
+  }
+}
+
 /* Small screens, laptops */
 
 @media (min-width: 769px) and (max-width: 1024px) {

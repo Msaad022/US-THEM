@@ -15,7 +15,7 @@
 }
 .links {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 100%;
   align-items: center;
   justify-items: center;
 }
@@ -70,9 +70,6 @@
   .links > ul a {
     width: max-content;
     padding: 0px 12px;
-  }
-  .links {
-    grid-template-columns: 85% 15%;
   }
 }
 

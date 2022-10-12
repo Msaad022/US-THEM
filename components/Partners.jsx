@@ -31,7 +31,7 @@ function Partners() {
               </Link>
             </div>
             <div>
-              <Link href='https://wa.me/01124004914'>
+              <Link href='https://wa.me/+2001124004914'>
                 <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>
@@ -51,7 +51,7 @@ function Partners() {
               </Link>
             </div>
             <div>
-              <Link href='https://wa.me/01129066167'>
+              <Link href='https://wa.me/+2001129066167'>
                 <a><Image src={Whatsapp} alt="Whatsapp icon" /></a>
               </Link>
             </div>

@@ -18,12 +18,7 @@ function HeroBanner({ lang }) {
           <h4>{lang.hero}</h4>
           <div className={Styles.imgs_app}>
             <div>
-              <Link href='/#'>
-                <a><Image src={ImageGooglePlay} alt="Image Google Play" priority /></a>
-              </Link>
-            </div>
-            <div>
-              <Link href='/#'>
+              <Link href="https://urldra.cloud.huawei.com/iMiXajzwoo">
                 <a><Image src={ImageAppGallery} alt="Image App Gallery" priority /></a>
               </Link>
             </div>

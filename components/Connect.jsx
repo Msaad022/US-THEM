@@ -8,7 +8,8 @@ function Connect() {
   const emailRef = useRef();
   const titleRef = useRef();
   const textareaRef = useRef();
-
+  
+    
   const handleSubmit = async (event) => {
     event.preventDefault();
 
